@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "declaration": false,
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["../types"],
+    "types": [],
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts", "../types/**/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
