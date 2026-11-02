@@ -1,0 +1,15 @@
+{
+  "name": "mika_mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Operit sandbox package: Mika 手机 AI Agent MCP 桥接（虚拟屏任务下发/状态/唤醒/解锁）",
+  "scripts": {
+    "build": "bash build.sh",
+    "check": "tsc --noEmit",
+    "pack": "bash build.sh"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^5.0.0"
+  }
+}
